@@ -1,0 +1,70 @@
+body
+{
+background-image:url("bbg.jpg");
+}
+
+
+#mymenutab
+{
+color:black;
+text-align:right;
+background:pink;
+}
+
+#mymenutab ul li 
+{
+display:inline-block;
+padding:20px;
+text-decoration:none;
+}
+#mymenutab ul li a
+{
+
+text-decoration:none;
+color:black;
+}
+
+
+#mymenutab ul li:hover
+{
+display:inline-block;
+padding:20px;
+background:whitesmoke;
+}
+#string
+{
+    font-family: fantasy;
+}
+
+
+table
+{
+background:rgb(239,136,190,0.5);
+color:black;
+margin-top:8px;
+box-shadow:10px 10px 10px white;
+}
+
+table:hover
+{
+box-shadow:10px 10px 10px pink;
+}
+
+.button1
+{
+width:85px;
+height:40px;
+background:linear-gradient(red,black);
+color:white;
+border-radius:20px 20px ;
+border:10px;
+border-color: whitesmoke;
+}
+
+.button1:hover
+{
+width:85px;
+height:40px;
+background:linear-gradient(black,red);
+border-radius:40px 40px;
+}
